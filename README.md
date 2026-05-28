@@ -45,7 +45,7 @@ AWS Service	Purpose
 
 
 ## Step-by-Step Implementation
-Step 1: Prepare Website Files
+#### Step 1: Prepare Website Files
 Actions Performed
 - Downloaded a static website template
 - Extracted the ZIP file
@@ -58,7 +58,7 @@ Actions Performed
   - code .
 
 
-### Step 2: Create and Configure S3 Bucket
+#### Step 2: Create and Configure S3 Bucket
 Actions Performed
 - Created an S3 bucket: glorychidinmaotulu.online
 - Uploaded website files to the bucket
