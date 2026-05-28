@@ -43,3 +43,17 @@ AWS Service	Purpose
 - Amazon Route 53 --->	DNS management
 - AWS Certificate Manager (ACM) --->	SSL certificate management
 
+
+## Step-by-Step Implementation
+Step 1 — Prepare Website Files
+Actions Performed
+- Downloaded a static website template
+- Extracted the ZIP file
+- Opened project folder in VS Code
+- Reviewed the website file
+- Prepared the static website files for AWS deployment
+- Uploaded the template files to Amazon S3 for hosting
+
+  Command Used
+  code .
+
