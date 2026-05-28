@@ -16,3 +16,14 @@ AWS Certificate Manager (ACM) for SSL/TLS certificates
 Amazon CloudFront for global content delivery and HTTPS
 
 The project was built as a hands-on cloud engineering and DevOps learning implementation to understand real-world AWS deployment workflows.
+
+
+## Project Architecture
+
+User
+  ↓
+Route 53 (DNS)
+  ↓
+CloudFront (CDN + HTTPS)
+  ↓
+S3 Bucket (Static Website Files)
