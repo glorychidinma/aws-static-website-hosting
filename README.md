@@ -54,6 +54,12 @@ Actions Performed
 - Prepared the static website files for AWS deployment
 - Uploaded the template files to Amazon S3 for hosting
 
-  Command Used
-  code .
+  ### Command Used
+  - code .
 
+
+### Step 2: Create and Configure S3 Bucket
+Actions Performed
+- Created an S3 bucket: glorychidinmaotulu.online
+- Uploaded website files to the bucket
+- Ensured index.html existed in the root directory
