@@ -45,7 +45,7 @@ AWS Service	Purpose
 
 
 ## Step-by-Step Implementation
-Step 1 — Prepare Website Files
+Step 1: Prepare Website Files
 Actions Performed
 - Downloaded a static website template
 - Extracted the ZIP file
