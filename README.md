@@ -26,4 +26,12 @@ Route 53 (DNS)
   ↓
 CloudFront (CDN + HTTPS)
   ↓
-S3 Bucket (Static Website Files)
+
+## Project Objectives
+- Deploy a static website on AWS
+- Configure a custom domain
+- Enable HTTPS security using SSL/TLS
+- Deliver website content globally using CDN
+- Gain practical AWS cloud experience
+- Troubleshoot real-world deployment issues
+
