@@ -35,3 +35,11 @@ CloudFront (CDN + HTTPS)
 - Gain practical AWS cloud experience
 - Troubleshoot real-world deployment issues
 
+
+## AWS Services Used
+AWS Service	Purpose
+Amazon S3 --->  Static website hosting
+Amazon CloudFront --->	CDN and HTTPS delivery
+Amazon Route 53 --->	DNS management
+AWS Certificate Manager (ACM) --->	SSL certificate management
+
