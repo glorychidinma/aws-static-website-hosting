@@ -59,3 +59,15 @@ User ↓ Route 53 (DNS) ↓ CloudFront (CDN + HTTPS) ↓
 - Created an S3 bucket: glorychidinmaotulu.online
 - Uploaded website files to the bucket
 - Ensured index.html existed in the root directory
+
+
+#### Step 3: Enable Static Website Hosting
+
+**Configuration**
+
+- Enabled Static Website Hosting
+- Set: Index document: index.html
+
+##### Result
+
+- Website became accessible using the S3 website endpoint URL.
