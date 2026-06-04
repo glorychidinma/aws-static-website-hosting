@@ -42,8 +42,6 @@ User ↓ Route 53 (DNS) ↓ CloudFront (CDN + HTTPS) ↓
 
 #### Step 1: Prepare Website Files
 
-Actions Performed
-
 - Downloaded a static website template
 - Extracted the ZIP file
 - Opened project folder in VS Code
@@ -54,3 +52,10 @@ Actions Performed
     ##### Command Used
     
     - code .
+
+
+#### Step 2: Create and Configure S3 Bucket
+
+- Created an S3 bucket: glorychidinmaotulu.online
+- Uploaded website files to the bucket
+- Ensured index.html existed in the root directory
