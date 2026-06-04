@@ -89,3 +89,19 @@ To allow public access to website files, the following bucket policy was configu
     }
   ]
 }
+
+
+#### Step 5: Configure Route 53 Hosted Zone
+
+- Created hosted zone in Route 53
+- Migrated domain DNS management from Namecheap to Route 53
+
+Nameservers Updated
+ns-xxx.awsdns-xx.org
+ns-xxx.awsdns-xx.com
+ns-xxx.awsdns-xx.net
+ns-xxx.awsdns-xx.co.uk
+
+##### Result
+
+AWS successfully became the authoritative DNS provider for the domain.
