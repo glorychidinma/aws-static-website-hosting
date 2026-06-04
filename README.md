@@ -105,3 +105,15 @@ ns-xxx.awsdns-xx.co.uk
 ##### Result
 
 AWS successfully became the authoritative DNS provider for the domain.
+
+
+#### Step 6: Request SSL Certificate (ACM)
+
+- Requested SSL certificate in ACM
+- Validated domain ownership using DNS validation (CNAME record)
+
+##### Result
+
+Certificate status changed:
+
+Pending Validation → Issued
