@@ -117,3 +117,22 @@ AWS successfully became the authoritative DNS provider for the domain.
 Certificate status changed:
 
 Pending Validation → Issued
+
+
+#### Step 7 : Configure CloudFront Distribution
+
+- Created CloudFront distribution
+- Connected S3 bucket as origin
+- Added custom domain:
+
+##### glorychidinmaotulu.online
+
+- Attached ACM SSL certificate
+- Enabled HTTP → HTTPS redirection
+- Configured default root object:
+
+index.html
+
+##### Result
+
+CloudFront globally distributed website content securely over HTTPS.
