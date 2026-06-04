@@ -8,7 +8,7 @@ This project demonstrates the deployment of a secure and globally distributed st
 
 The project focused on cloud infrastructure deployment and AWS service integration using a prebuilt static website template.
 
-### The architecture integrates:
+### The Architecture Integrates:
 
 Amazon S3 for static website hosting Amazon Route 53 for DNS management AWS Certificate Manager (ACM) for SSL/TLS certificates Amazon CloudFront for global content delivery and HTTPS
 
@@ -36,3 +36,21 @@ User ↓ Route 53 (DNS) ↓ CloudFront (CDN + HTTPS) ↓
 - Amazon CloudFront ---> CDN and HTTPS delivery
 - Amazon Route 53 ---> DNS management
 - AWS Certificate Manager (ACM) ---> SSL certificate management
+
+
+### Step-by-Step Implementation
+
+#### Step 1: Prepare Website Files
+
+Actions Performed
+
+- Downloaded a static website template
+- Extracted the ZIP file
+- Opened project folder in VS Code
+- Reviewed the website file
+- Prepared the static website files for AWS deployment
+- Uploaded the template files to Amazon S3 for hosting
+    
+    ##### Command Used
+    
+    - code .
