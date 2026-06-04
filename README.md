@@ -18,3 +18,13 @@ The project was built as a hands-on cloud engineering and DevOps learning implem
 ### Project Architecture
 
 User ↓ Route 53 (DNS) ↓ CloudFront (CDN + HTTPS) ↓
+
+
+### Project Objectives
+
+- Deploy a static website on AWS
+- Configure a custom domain
+- Enable HTTPS security using SSL/TLS
+- Deliver website content globally using CDN
+- Gain practical AWS cloud experience
+- Troubleshoot real-world deployment issues
