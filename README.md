@@ -205,11 +205,20 @@ Fixed CloudFront origin settings
 - Configured HTTP → HTTPS redirection
 
 
-#### Final Outcome
+### Final Outcome
 The project successfully achieved:
-
 - Static website deployment on AWS
 - HTTPS secure communication
 - Custom domain integration
 - Global CDN distribution
 - Real-world cloud troubleshooting experience
+
+
+### Skills Demonstrated
+- AWS Cloud Infrastructure
+- Static Website Hosting
+- CDN Configuration
+- DNS Management
+- SSL/TLS Certificate Management
+- Cloud Troubleshooting
+- DevOps Fundamentals
