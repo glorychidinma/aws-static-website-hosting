@@ -136,3 +136,13 @@ index.html
 ##### Result
 
 CloudFront globally distributed website content securely over HTTPS.
+
+
+#### Step 8 : Connect Domain to CloudFront
+
+- Created Route 53 Alias A Record
+- Pointed domain to CloudFront distribution
+
+##### Result
+
+Website became accessible via custom domain and HTTPS.
