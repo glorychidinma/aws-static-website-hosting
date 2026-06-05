@@ -238,3 +238,13 @@ This architecture is commonly used for:
 The live deployment has been stopped due to AWS usage costs incurred during the learning and testing phase.
 
 However, this project remains a complete hands-on implementation of a production-style AWS deployment architecture.
+
+
+### Key Takeaways
+Through this project, I gained practical experience in:
+- End-to-end AWS deployment workflows
+- Secure website hosting
+- CDN implementation
+- DNS routing
+- SSL certificate management
+- Troubleshooting real cloud infrastructure issues
