@@ -150,54 +150,66 @@ Website became accessible via custom domain and HTTPS.
 
 ### Challenges Faced & Troubleshooting
 
-1. AccessDenied Error
+#### 1. AccessDenied Error
 
 <Error>
   <Code>AccessDenied</Code>
   <Message>Access Denied</Message>
 </Error>
 
-#### Cause
+##### Cause
 - Incorrect S3 permissions
 - Incorrect CloudFront origin configuration
 
-#### Solution
+##### Solution
 Updated S3 bucket policy
 Fixed CloudFront origin settings
 
-2. ACM Certificate Pending Validation
 
-#### Cause
+#### 2. ACM Certificate Pending Validation
+
+##### Cause
 - Incorrect DNS validation records
 - Duplicate/malformed CNAME records
 
-#### Solution
+##### Solution
 - Deleted incorrect DNS records
 - Recreated proper CNAME validation records in Route 53
 - Waited for DNS propagation
 
-#### Result
+##### Result
 - Certificate successfully issued
 - Verified public access configuration
 
-3. CloudFront Distribution Not Appearing in Route 53
 
-#### Cause
+#### 3. CloudFront Distribution Not Appearing in Route 53
+
+##### Cause
 - Alternate domain name not configured
 - SSL certificate not attached properly
 
-#### Solution
+##### Solution
 - Added custom domain in CloudFront
 - Attached ACM certificate
 - Redeployed CloudFront distribution
 
-4. Website Showing “Not Secure”
 
-#### Cause
+#### 4. Website Showing “Not Secure”
+
+##### Cause
 - Website accessed over HTTP
 - HTTPS redirection not configured
 
-#### Solution
+##### Solution
 - Enabled HTTPS in CloudFront
 - Configured HTTP → HTTPS redirection
 
+
+#### Final Outcome
+The project successfully achieved:
+
+- Static website deployment on AWS
+- HTTPS secure communication
+- Custom domain integration
+- Global CDN distribution
+- Real-world cloud troubleshooting experience
