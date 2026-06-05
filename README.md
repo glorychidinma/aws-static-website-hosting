@@ -146,3 +146,58 @@ CloudFront globally distributed website content securely over HTTPS.
 ##### Result
 
 Website became accessible via custom domain and HTTPS.
+
+
+### Challenges Faced & Troubleshooting
+
+1. AccessDenied Error
+
+<Error>
+  <Code>AccessDenied</Code>
+  <Message>Access Denied</Message>
+</Error>
+
+#### Cause
+- Incorrect S3 permissions
+- Incorrect CloudFront origin configuration
+
+#### Solution
+Updated S3 bucket policy
+Fixed CloudFront origin settings
+
+2. ACM Certificate Pending Validation
+
+#### Cause
+- Incorrect DNS validation records
+- Duplicate/malformed CNAME records
+
+#### Solution
+- Deleted incorrect DNS records
+- Recreated proper CNAME validation records in Route 53
+- Waited for DNS propagation
+
+#### Result
+- Certificate successfully issued
+- Verified public access configuration
+
+3. CloudFront Distribution Not Appearing in Route 53
+
+#### Cause
+- Alternate domain name not configured
+- SSL certificate not attached properly
+
+#### Solution
+- Added custom domain in CloudFront
+- Attached ACM certificate
+- Redeployed CloudFront distribution
+
+4. Website Showing “Not Secure”
+
+#### Cause
+- Website accessed over HTTP
+- HTTPS redirection not configured
+
+#### Solution
+- Enabled HTTPS in CloudFront
+- Configured HTTP → HTTPS redirection
+
