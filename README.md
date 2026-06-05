@@ -231,3 +231,10 @@ This architecture is commonly used for:
 - Corporate websites
 - Documentation websites
 - High-performance static applications
+
+
+### Project Status
+
+The live deployment has been stopped due to AWS usage costs incurred during the learning and testing phase.
+
+However, this project remains a complete hands-on implementation of a production-style AWS deployment architecture.
